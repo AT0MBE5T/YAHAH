@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   .sectionArticles__linebottom, .sectionArticles__linetop, .sectionArticles-header__img{
     display: none;
   }
