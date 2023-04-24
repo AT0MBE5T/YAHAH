@@ -272,7 +272,8 @@
   color: var(--text-light);
   width: 100%;
   height: 100%;
-  background: url(../img/SectionProjectDescription/mazok2.png) 65px -20px/80% 75% no-repeat;
+  background: url(../img/SectionProjectDescription/1\ 201\ \(1\).svg) 40px 10px/90% 90% no-repeat;
+  padding-top: 30px;
 }
 
 .sectionProjDesc-footer__text{
@@ -284,6 +285,7 @@
   line-height: 34px;
   color: var(--text-light);
   width: 600px;
+  margin-top: 50px;
 }
 
 span{
