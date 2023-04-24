@@ -269,7 +269,7 @@
   color: var(--text-light);
   width: 100%;
   height: 100%;
-  background: url(/img/SectionProjectDescription/mazok2.png) 65px -20px/80% 75% no-repeat;
+  background: url(./img/SectionProjectDescription/mazok2.png) 65px -20px/80% 75% no-repeat;
 }
 
 .sectionProjDesc-footer__text{
