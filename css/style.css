@@ -106,7 +106,8 @@
 }
 
 .sectionArticles__container{
-  height: 700px;
+  padding-top: 190px;
+  height: 890px;
 }
 
 .sectionArticles-header__img{
