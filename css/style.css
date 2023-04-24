@@ -202,6 +202,7 @@
   height: 302.13px;
   left: 0px;
   top: 60px;
+  z-index: -1;
 }
 
 .sectionArticles__linebottom{
@@ -210,6 +211,7 @@
   height: 302.13px;
   left: 0px;
   top: 85px;
+  z-index: -1;
 }
 
 .sectionArticles-footer__wrapper{
