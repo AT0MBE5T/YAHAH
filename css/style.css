@@ -103,20 +103,14 @@
   position: relative;
   text-align: center;
   height: 100px;
+  background: url(../img/SectionArticles/mazok.svg) no-repeat;
+  background-position: 125px;
+  margin-bottom: 60px;
 }
 
 .sectionArticles__container{
   padding-top: 54px;
-  height: 700px;
-}
-
-.sectionArticles-header__img{
-  position: absolute;
-  left: 60px;
-  top: 0px;
-  width: 1020.94px;
-  width: 1150px;
-  height: 95.71px;
+  padding-bottom: 194px;
 }
 
 .sectionArticles-header__text{
@@ -134,15 +128,13 @@
   margin: 0 auto;
 }
 
+.sectionArticles-footer__imgcontainer{
+  margin-right: 61px;
+}
+
 .sectionArticles__footer{
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
-  padding: 0px;
-  gap: 61px;
   position: relative;
+  padding: 28px 50px;
 }
 
 .sectionArticles-footer__imgmain{
@@ -194,34 +186,24 @@
   justify-content: center;
   gap: 32px;
   width: 554.33px;
-  height: 300px;
 }
 
 .sectionArticles__linetop{
   position: absolute;
-  width: 1189.27px;
-  height: 302.13px;
-  left: 0px;
-  top: 60px;
+  left: 0;
+  top: 0;
   z-index: -1;
 }
 
 .sectionArticles__linebottom{
   position: absolute;
-  width: 1189.27px;
-  height: 302.13px;
-  left: 0px;
-  top: 85px;
+  left: 0;
+  top: 7px;
   z-index: -1;
 }
 
 .sectionArticles-footer__wrapper{
-  height: 450px;
   display: flex;
-  justify-content: center;
-  align-items:center;
-  padding: 0px;
-  gap: 61px;
 }
 
 
@@ -243,25 +225,22 @@
 }
 
 .sectionProjDesc{
-  margin: 0 auto;
-  min-height: 887px;
-  max-width: 1200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: url(../img/SectionProjectDescription/bacg.png) center/cover no-repeat;
 }
+
+.sectionProjDesc__container{
+  padding: 173px 0;
+}
+
 .sectionProjDesc__wrapper{
-  width: 595.09px;
-  height: 507.24px;
-  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  top: 25px;
+  align-items: center;
 }
 
 .sectionProjDesc__header{
-  height: 100px;
+  background: url(../img/SectionProjectDescription/mazok.png) center/450px no-repeat;
+  margin-bottom: 60px;
 }
 
 .sectionProjDesc-header__text{
@@ -272,8 +251,6 @@
   color: var(--text-light);
   width: 100%;
   height: 100%;
-  background: url(../img/SectionProjectDescription/1\ 201\ \(1\).png) 40px 12px/90% 90% no-repeat;
-  padding-top: 30px;
 }
 
 .sectionProjDesc-footer__text{
@@ -284,8 +261,8 @@
   font-size: var(--text-content);
   line-height: 34px;
   color: var(--text-light);
-  width: 600px;
-  margin-top: 50px;
+  width: 595px;
+  margin-bottom: 36px;
 }
 
 span{
@@ -301,8 +278,4 @@ span{
   flex-direction: column;
   align-items: center;
   gap: 50px;
-}
-
-.br-in{
-  display: none;
 }
